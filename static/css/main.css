@@ -89,7 +89,6 @@ input[type=text] {
   text-align: center;
   position: relative;
   display: block;
-  margin : 0 auto;
 }
 input[type=submit] {
   padding: 12px 20px;
@@ -126,6 +125,23 @@ button.buttonStyle {
     background-color: #000000;
     border-color: #000000;
     color: white;
+}
+p {
+ text-align: center;
+line-height: 40px;
+    margin: auto;
+
+}
+div.inputs {
+ text-align: center;
+line-height: 40px;
+    margin: auto;
+    margin-left: 345px;
+
+}
+.select {
+    text-align: center;
+    width: 240px;
 }
 .center {
   margin: auto;
