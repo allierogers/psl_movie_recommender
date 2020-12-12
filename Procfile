@@ -1,1 +1,1 @@
-web: gunicorn polar-beach-99693:app 
+web: gunicorn psl-movie-recommender:app 
