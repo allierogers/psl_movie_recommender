@@ -1,0 +1,8 @@
+boto3
+json
+numpy
+os
+pandas
+collections
+flask
+surprise
