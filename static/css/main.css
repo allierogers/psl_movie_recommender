@@ -134,3 +134,13 @@ line-height: 40px;
   border: 3px solid #7d9fc5;
   padding: 10px;
 }
+.center2 {
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+}
+.center3 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
