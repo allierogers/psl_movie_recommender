@@ -1,1 +1,1 @@
-web: gunicorn psl-movie-recommender.wsgi --log-file -
+web: gunicorn psl-movie-recommender:app --log-file -
