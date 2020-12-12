@@ -16,6 +16,7 @@ base_url = 'https://liangfgithub.github.io/MovieData/'
 RATINGS = pd.read_csv(base_url + 'ratings.dat?raw=true', 
                       sep='::',
                       engine='python',
+                      nrows=12975,
                       header=None,
                       names=['user_id', 'movie_id', 'rating', 'ts'])
 MOVIES = pd.read_csv(base_url + 'movies.dat?raw=true', 
