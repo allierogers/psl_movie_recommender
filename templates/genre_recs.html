@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>Movie Recommender</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="home">
+      <h2 style="color:#365577">Top Rated Movies in Your Genre</h2>
+      <table class="center">
+        {% for key, value in result.items() %}
+           <tr>
+                <th style="text-align:center;height:30px"> {{ key }} </th>
+                <td style="text-align:center;height:30px"> {{ value }} </td>
+           </tr>
+        {% endfor %}
+        </table>
+      <p></p>
+      <h3><a href="/" class="button">Go Home</a></h3>
+    </div>
+</body>
+</html>
+

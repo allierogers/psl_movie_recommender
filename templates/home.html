@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title>Movie Recommender</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="home">
+      <h2 style="color:#365577">Welcome to the Movie Recommender Home Page</h2>
+      <p>Would you like to get movie recs by genre, or based on other movies you like?</p>
+        <h3><a href="/genre" class="button">Genre</a></h3>
+        <h3><a href="/collab" class="button">Other Movies</a></h3>
+    </div>
+</body>
+</html>

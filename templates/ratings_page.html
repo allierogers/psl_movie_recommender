@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<title>Movie Recommender</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <div class="center">
+    <h2 style="color:#365577">Please rate any movies you have seen</h2>
+    <form method=post enctype=multipart/form-data>
+      
+      <p>Toy Story
+      <select id="1" name="1">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Jumanji
+      <select id="2" name="2">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Grumpier Old Men
+      <select id="3" name="3">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Waiting to Exhale
+      <select id="4" name="4">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Father of the Bride Part II
+      <select id="5" name="5">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Heat
+      <select id="6" name="6">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Sabrina
+      <select id="7" name="7">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Tom and Huck
+      <select id="8" name="8">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Sudden Death
+      <select id="9" name="9">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>GoldenEye
+      <select id="10" name="10">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>American President, The
+      <select id="11" name="11">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Dracula: Dead and Loving It
+      <select id="12" name="12">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Balto
+      <select id="13" name="13">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Nixon
+      <select id="14" name="14">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Cutthroat Island
+      <select id="15" name="15">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Casino
+      <select id="16" name="16">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Sense and Sensibility
+      <select id="17" name="17">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Four Rooms
+      <select id="18" name="18">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Ace Ventura: When Nature Calls
+      <select id="19" name="19">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+        <p>Money Train
+      <select id="20" name="20">
+          <option value="0">No Rating</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select></p>
+      <h3><input type="submit" name="submit_button" value="Get Movie Recs"></h3>
+    </form>
+    <h3><a href="/" class="button">Go Home</a></h3>
+    </div>
+</body>
+</html>
+
