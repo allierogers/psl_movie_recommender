@@ -5,11 +5,12 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
-    <div class="center">
+    <div class="home">
+      
       <h2 style="color:#365577">Get Recs by Genre</h2>
       <p>What is your favorite movie genre?</p>
       <form method=post enctype=multipart/form-data>
-      <div class="inputs"><select id="selected_genre" name="selected_genre">
+      <select id="selected_genre" name="selected_genre">
           <option value="Action">Action</option>
           <option value="Adventure">Adventures</option>
           <option value="Animation">Animation</option>
@@ -28,11 +29,13 @@
           <option value="Thriller">Thriller</option>
           <option value="War">War</option>
           <option value="Western">Western</option>
-      </select></div>
-      <div class="inputs"><h3><input type="submit" name="submit_button" value="Get Movie Recs"></h3></div>
-        </form> 
+      </select>
+    </div>
+    <br>
+      <h3><input type="submit" name="submit_button" value="Get Movie Recs"></h3>
+    </form> 
         <p></p>
         <h3><a href="/" class="button">Go Home</a></h3>
-    </div>
+      </div>
 </body>
 </html>

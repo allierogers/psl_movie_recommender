@@ -45,17 +45,12 @@ div.about {
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
-div.form
-{
-    display: block;
-    text-align: center;
-}
 form
 {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
 }
 h1 {
   font-size: 4em;
@@ -79,16 +74,6 @@ h3 {
 }
 p {
   text-align: center
-}
-input[type=text] {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  font-size: 1.1em;
-  text-align: center;
-  position: relative;
-  display: block;
 }
 input[type=submit] {
   padding: 12px 20px;
@@ -136,7 +121,7 @@ div.inputs {
  text-align: center;
 line-height: 40px;
     margin: auto;
-    margin-left: 345px;
+    display: inline-block;
 
 }
 .select {
